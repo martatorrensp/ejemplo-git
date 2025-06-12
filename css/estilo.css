@@ -24,6 +24,7 @@ h1 a{
     list-style: none;
     display: flex;
     gap: 30px;
+    color: black;
 }
 nav ul{
     list-style: none;
@@ -42,6 +43,7 @@ nav a{
 }
 h2{
     font-weight: 500;
+    font-size: 4em;
 }
 .abrir,
 .cerrar{
@@ -85,7 +87,6 @@ h2{
         cursor: pointer;
     }
     .abrir{
-        -webkit-appearance: none;
         display: block;
         background-color: transparent;
         border-radius: 5px;
@@ -99,5 +100,8 @@ h2{
         background-color: #23c;
         height: 3px;
         margin-bottom: 5px;
+    }
+    h2{
+        font-size: 2em;
     }
 }
