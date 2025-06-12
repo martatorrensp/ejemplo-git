@@ -8,6 +8,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 130px auto;
+    color: #23c;
 }
 header{
     padding: 30px;
